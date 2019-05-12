@@ -13,7 +13,8 @@ Like any other mod, download the .zip file and place the contents in the `mods` 
 * Multiple competitors, each competitor has the following actions available:
   * Create a game
      * Competitors will try to rationally pick a topic, genre and platform based on its knowledge.
-     * They will 
+     * Simulate development costs based on the available tech of the player.
+     * License new platforms when applicable 
   * Research a new topic
   * Generate a game report
 * Basic notification when a competitor releases a new game or a game goes off the market
