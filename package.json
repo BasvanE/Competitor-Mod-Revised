@@ -1,0 +1,12 @@
+﻿{
+	"id" : "CompetitorModRevised",
+	"name" : "Competitor Mod Revised",
+	"version":"0.1.0",
+	"author":"BasvE",
+	"url":"https://github.com/BasvanE/Competitor-Mod-Revised",
+	"description" : "A revised and improved version of the original CompetitorMod by Kristof1104 and me.",
+	"main" : "./CompetitorModRevised.js",
+	"dependencies" : {
+		"gdt-modAPI": "0.1.x"
+	}
+}
