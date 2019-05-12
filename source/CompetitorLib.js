@@ -261,8 +261,8 @@ var Experience;
 
 		//Check if a game can be developed
 		this.canDevelopGame = function () {
-			if (this.gameOnMarket && (this.gameOnMarket.currentSalesCash / this.gameOnMarket.totalSalesCash) >= 0.75)
-				return true
+			if (this.gameOnMarket && (this.gameOnMarket.currentSalesCash / this.gameOnMarket.totalSalesCash) >= 0.8)
+				return true;
 			else if (this.gameOnMarket)
 				return false;
 			return true;
@@ -287,7 +287,7 @@ var Experience;
 			do {
 				name = NameGeneration.generateGameName();
 			} while (this.gameLog.some(function (item) {
-				return item.name == gameName;
+				return item.name == name;
 			}));
 			return name;
 		};
